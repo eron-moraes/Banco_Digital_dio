@@ -1,0 +1,33 @@
+package Estacionamento;
+
+public class Carro {
+	
+	private String placa;
+	private String nome;
+	
+	
+	public Carro(String p, String n) {
+		super();
+		this.setPlaca(p);
+		this.setNome(n);
+	}
+	public String getPlaca() {
+		return placa;
+	}
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	@Override
+	public String toString() {
+		return "Placa: " + this.getPlaca() + "\nNome: " + this.getNome();
+	}
+	
+
+}

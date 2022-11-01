@@ -1,0 +1,15 @@
+package Estacionamento;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		string [] vagas = new string[20];
+		
+		vagas[1] = 2;
+		
+		System.out.println(vagas[1]);
+	}
+
+}

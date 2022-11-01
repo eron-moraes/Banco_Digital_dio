@@ -1,0 +1,9 @@
+package Estacionamento;
+
+public class Carro {
+
+	public Carro(String p) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

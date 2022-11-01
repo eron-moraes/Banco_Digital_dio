@@ -1,0 +1,30 @@
+package Estacionamento;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner placa = new Scanner(System.in);
+		ArrayList<nomePlaca> lista = new ArrayList<nomePlaca>();
+		
+		char controle = 's';
+		do {
+			System.out.println("Digite a placa");
+			String p = placa.next();
+			nomePlaca pl = new nomePlaca(p);
+			lista.add(pl);
+			System.out.println("Deseja continuar? Digite S para sim");
+			controle = placa.next().charAt(0);
+		} while(controle == 's' || controle == 'S');
+		
+		for (nomePlaca i: lista) {
+			System.out.println(i);
+		}
+		 
+	}
+
+}

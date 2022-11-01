@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\USUARIO\Desktop\CURSO EM VÍDEO\Banco_digital\.metadata\.plugins\org.eclipse.jdt.core
+2747898966.index
+1865797976.index
+1957986973.index
+1067094681.index

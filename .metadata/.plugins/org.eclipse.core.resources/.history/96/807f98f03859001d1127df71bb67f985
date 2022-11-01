@@ -1,0 +1,36 @@
+package Estacionamento;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Carro p1 = new Carro("DWL5001", "Eron");
+		System.out.println(p1);
+	}
+}
+}
+		
+		/*Scanner placa = new Scanner(System.in);
+		ArrayList<Carro> lista = new ArrayList<Carro>();
+		
+		char controle = 's';
+		do {
+			System.out.println("Digite a placa");
+			String p = placa.next();
+			Carro pl = new Carro(p);
+			lista.add(pl);
+			System.out.println("Deseja continuar? Digite S para sim");
+			controle = placa.next().charAt(0);
+		} while(controle == 's' || controle == 'S');
+		
+		for (Carro i: lista) {
+			System.out.println(i);
+		}
+		 
+	}
+
+}
